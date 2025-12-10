@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+* {
+    -webkit-transition-property: all;
+    -webkit-transition-duration: .2s;
+    -moz-transition-timing-function: cubic-bezier(100, 50, 21, 6);
+    -moz-transition-property: all;
+    -moz-transition-timing-function: cubic-bezier(100, 50, 21, 6);
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("image/BG2.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    min-width: 800px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+table {
+    min-width: 80%;
+    border-collapse: collapse;
+    color: #000000;
+    font-size: 12px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+table th {
+    background: #000000;
+    color: #DCDCDC;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+table th,
+table td {
+    vertical-align: top;
+    padding: 5px 10px;
+    border: 3px solid #696969;
+}
+
+table tr {
+    background: #919191;
+}
+
+table tr:nth-child(even) {
+    background: #FFFFFF;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #c5cae9;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.2s;
+    outline: none;
+}
+
+h1 {
+    color: #c0c0c0;
+    font-weight: 100;
+}
+
+h2 {
+    color: #FFFFFF;
+    padding: 50px;
+}
+
+h3 {
+    color: #FFFFFF;
+    padding: 50px;
+    padding-bottom: 20px;
+}
+
+.btn {
+    color: #ccc;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
+    font-size: 11px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #1b1b1b;
+    padding: 10px 15px;
+}
+
+.info {
+    color: #999;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    font-size: 12px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.footermenu {
+    font-size: 10px;
+    color: #fff;
+    clear: both;
+    display: block;
+    letter-spacing: 5px;
+    border: 1px solid #fff;
+    padding: 5px;
+    text-decoration: none;
+    width: 50%;
+    margin: auto;
+    margin-top: 380px;
+}
+
+.footeruser {
+    font-size: 10px;
+    color: #fff;
+    clear: both;
+    display: block;
+    letter-spacing: 5px;
+    border: 1px solid #fff;
+    padding: 5px;
+    text-decoration: none;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.footer {
+    font-size: 10px;
+    color: #fff;
+    clear: both;
+    display: block;
+    letter-spacing: 5px;
+    border: 1px solid #fff;
+    padding: 5px;
+    text-decoration: none;
+    width: 50%;
+    margin: auto;
+    margin-top: 250px;
+}
